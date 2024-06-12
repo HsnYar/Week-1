@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body style="background-color: rgb(209, 209, 209); font-family: Arial, Helvetica, sans-serif;">
+    <h1><center>HTML Form Elemanları</center></h1>
+
+    <h2><center>Başvuru Formu</center></h2>
+    <form action="form_elemanlari.html" method="get">
+      <fieldset style="border-radius: 10px; border-color: rgb(118, 118, 118);background-color: rgb(199, 199, 199);">
+        <!-- Kişisel Bilgiler -->
+        <legend>Kişisel:</legend>
+        <div>
+            <label for="name">İsim:&nbsp</label>
+            <input type="text" id="name" style="border-radius: 6px;border: 0cap;" required>
+            <label for="surname">Soyisim:</label>
+            <input type="text" id=surname" style="border-radius: 6px;border: 0cap;" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Şifre:</label>
+            <input type="password" name="password" id="password" style="border-radius: 6px;border: 0cap;" required>
+        </div>
+        <br>
+        <div>
+            <label for="gender">Cinsiyet:</label>
+            <input type="radio" name="gender" value="male">Erkek
+            <input type="radio" name="gender" value="female">Kadın
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Doğum Tarihi:</label>
+            <input type="date" id="birthday">
+        </div>
+        <br>
+        <div>
+            <label for="favfruit">Favori Meyven:</label>
+            <select id="favfruit">
+                <option>Seçiniz..</option>
+                    <option value="strawberry">Çilek</option>
+                    <option value="apple">Elma</option>
+                    <option value="banana">Muz</option>
+                    <option value="pineapple">Ananas</option>
+                    <option value="mango">Mango</option>
+                    <option value="watermelon">Karpuz</option>
+                    <option value="plum">Erik</option>
+                    <option value="melon">Kavun</option>
+                    <option value="peach">Şeftali</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="cv">Özgeçmiş:</label>
+            <input type="file" id="cv">
+        </div>
+      </fieldset>
+      <fieldset style="border-radius: 10px; border-color: rgb(118, 118, 118);background-color: rgb(199, 199, 199);">
+        
+                <!-- İletişim Bilgileri -->
+        <legend>İletişim:</legend>
+        <div>
+            <label for="email">E-Posta:</label>
+            <input type="email" id="email" style="border-radius: 6px;border: 0cap;" required>
+        </div>
+        <br>
+        <div>
+            <label for="tel">Telefon:&nbsp</label>
+            <input type="tel" id="tel" style="border-radius: 6px;border: 0cap;">
+        </div>
+        <br>
+        <div>
+            <label for="address">Adres:&nbsp&nbsp&nbsp</label>
+            <textarea id="address" rows="5" cols="40" style="border-radius: 6px;border: 0cap;"></textarea>
+        </div>
+      </fieldset>
+      <fieldset style="border-radius: 10px; border-color: rgb(118, 118, 118);background-color: rgb(199, 199, 199);">
+        <div>
+        <center>
+            <button type="submit">Kayıt ol</button>
+            <button type="reset">Temzile</button>
+        </center>
+        </div>
+      </fieldset>  
+    </form>
+</body>
+</html>
