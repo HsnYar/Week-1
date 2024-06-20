@@ -1,0 +1,166 @@
+        
+body{
+    background-image: url(./image/mainbg.jpg);
+    margin: 0 auto;
+}
+*{
+    font-size: larger;
+}
+
+@font-face {
+    font-family: header;
+    src: url(./font/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: navbar;
+    src: url(./font/navbar.ttf);
+}
+
+h1{
+    font-size: xx-large;
+    font-family: header;
+    -webkit-text-fill-color: rgb(255, 157, 0);
+    text-shadow: 
+    2px 2px #000000bd;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main{
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px rgba(169, 169, 169, 0.6);
+    margin: 0 auto;
+    
+}
+
+h2{
+    -webkit-text-fill-color: rgb(255, 0, 81);
+    font-size:xx-large;
+    text-shadow: 
+    1px 1px #4a091c;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;          
+}
+
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.polaroid{
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    width: 1150px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px rgba(169, 169, 169, 0.6);
+    object-fit: cover;
+}
+
+h3{
+    -webkit-text-fill-color: rgb(255, 0, 81);
+    font-size: x-large;
+    text-shadow: 
+    1px 1px #4a091c;
+    font-family: Arial, Helvetica, sans-serif;          
+}
+
+.nav li{
+    float: right;
+    font-size: large;
+    list-style-type: none;
+    font-family: navbar;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0px;
+}
+
+.nav li a:hover{
+    text-decoration: underline 5px rgb(255, 0, 93);
+
+}
+
+
+.nav li a{
+    text-decoration: none;
+    padding: 15px 15px;
+    color: black;   
+}
+
+.nav ul{
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline block;
+}
+
+.nav-container{
+    width: 1100px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.nav{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(169, 169, 169, 0.6);
+    border-top: solid 5px rgb(255, 0, 93);
+}
+
+.nav img{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+h4{
+    -webkit-text-fill-color: rgb(49, 49, 49);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;         
+}
+ li::marker{
+    color: rgb(255, 0, 93);
+
+ }
+
+ li{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+ }
+
+ ul{
+    border-left: solid 5px  rgb(255, 0, 93);
+ }
+
+ ol{
+    border-left: solid 5px  rgb(255, 0, 93);
+ }
+
+ form{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+  form input{
+    border: 1px solid black;
+  }
+
+  button{
+    border-radius: 0px;
+    border: 0px solid black;
+    padding: 20px;
+    background-color: rgb(255, 204, 0);
+    box-shadow: 0px 2px 10px rgba(169, 169, 169, 0.6);
+    font-family: navbar;
+
+  }
